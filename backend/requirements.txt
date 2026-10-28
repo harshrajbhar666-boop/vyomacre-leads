@@ -4,5 +4,4 @@ sqlalchemy>=2.0.29,<2.1
 pydantic>=2.6.0
 pydantic-settings>=2.2.1
 python-dotenv>=1.0.1
-# sirf tab chahiye jab DATABASE_URL Postgres ka ho (production)
-# psycopg2-binary — sirf Postgres ke liye, local par nahi chahiye
+psycopg2-binary>=2.9.9
